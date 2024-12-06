@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    JIRA_DOMAIN = os.getenv('JIRA_DOMAIN')
-    JIRA_USERNAME = os.getenv('JIRA_USERNAME')
-    JIRA_API_TOKEN = os.getenv('JIRA_API_TOKEN')
+    JIRA_DOMAIN = os.getenv('https://sofintech.atlassian.net')
+    JIRA_USERNAME = os.getenv('higor.guimaraes@sofintech.com.br')
+    JIRA_API_TOKEN = os.getenv('ATATT3xFfGF0uZ9oTNE525ssnixOhbAGX05PsQ4czz6t7TrgxsFBWDWOjCC9TVl25zATWE_roh_LSahhzZhyJjSFrxoNH8O_yoslHhYoR-4F_K35azrR0pqyC8GhJjo7z2Iy45oyO9NA0dgZXCDgVMTlDhWAx0D_3ZcVS13IMCxh04lwuNJktPg=1F1DC2B3')
     
     @staticmethod
     def validate():
